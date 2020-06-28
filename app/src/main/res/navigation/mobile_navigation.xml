@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_food">
+
+    <fragment
+        android:id="@+id/nav_food"
+        android:name="com.example.healthyfitness.fragment.FoodCategoriesFragment"
+        android:label="@string/menu_food"
+        tools:layout="@layout/fragment_foodcategories" >
+        <action
+            android:id="@+id/action_nav_food_to_foodItemsFragment"
+            app:destination="@id/foodItemsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_bmi"
+        android:name="com.example.healthyfitness.fragment.BMIFragment"
+        android:label="@string/menu_bmi"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.healthyfitness.fragment.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/foodItemsFragment"
+        android:name="com.example.healthyfitness.fragment.FoodItemFragment"
+        android:label="food_items_fragment"
+        tools:layout="@layout/fragment_food_item" >
+        <argument
+            android:name="FoodItemDetailId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="CategoryName"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+</navigation>

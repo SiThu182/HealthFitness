@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HealthyFitness</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Healthy Fitness</string>
+    <string name="nav_header_subtitle">kaythiphyoe2016@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_food">Food Categories</string>
+    <string name="menu_bmi">BMI</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="BmiWeight">Weight</string>
+    <string name="BmiHeight">Height</string>
+    <string name="BmiCalculate">Calculate</string>
+    <string name="BmiClearAll">Clear All</string>
+    <string name="BmiResult">Your BMI result is:</string>
+    <string name="BmiStatus">Your BMI status is:</string>
+    <string name="FruitDiary">Fruit</string>
+    <string name="DrinkDiary">Drink</string>
+    <string name="SnackDiary">Snack</string>
+    <string name="CurryDiary">Curry</string>
+    <string name="SoupDiary">Soup</string>
+    <string name="edit_search_foodItem">Search Food</string>
+    <string name="editSearchFoodItem">Search Food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
